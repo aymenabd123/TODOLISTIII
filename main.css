@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.ev {
+    font-family: 'Italianno', cursive;
+    font-size: 48px;
+    text-transform: capitalize;
+    line-height:0;
+    margin-top: 0;
+    color: white;
+    word-spacing: -2px;
+}
+body {
+    background-color: rgba(29, 88, 111, 0.824);
+    color: white;
+    
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    text-transform: capitalize;
+
+    padding-top: 70px;
+    background-image: linear-gradient(to button, rgba(29, 88, 111, 0.92), rgb(255, 255, 255));
+}
+.task{
+  
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    background: rgba(43, 113, 171, 0.176);
+box-shadow: 0 8px 32px 0 rgba(99, 31, 135, 0.269);
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 2px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 3px solid white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+p {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.icon {
+    font-size: 22px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.678);
+}
+.icon:hover {
+    font-size: 26px;
+    transition: 0.2s;
+}
+
+.star:hover {
+color: rgb(180, 144, 4);
+}
+.trash {
+    margin-right: 10px;
+}
+.trash:hover {
+    color: rgb(198, 84, 84);
+}
+.face {
+    color: rgb(245, 219, 97);
+}
+form {
+    margin-bottom: 200px;
+}
+.and {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+.dd {
+    margin-left: 20px;
+font-size: 24px;
+cursor: pointer;
+}
+form {
+    text-align: center;
+
+}
+input {
+    height: 30px;
+
+    width: 300px;
+    outline: none;
+    caret-color: #352F5B;
+    padding: 10px 20px;
+border-radius: 6px;
+font-size: 21px;
+}
+
+input::placeholder {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+button{all:unset
+}
+button:hover {
+    color: rgba(255, 255, 255, 0.795) ;
+    transition: 0.3S;
+}
+
+.heart {
+    color: rgb(151, 90, 90);
+    font-size: 22px;
+}
+
+.f {
+    color: red;
+}
+.fn {
+color: cyan;
+display: none;
+
+}
+.finish {
+   
+    color: cyan;
+    }
+.orange {
+    color: orange;
+}
+@media (max-width:767px) {
+    button {
+        
+        flex-direction: column;
+        margin-top: 20px;
+        
+    }
+}
+
