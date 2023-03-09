@@ -59,7 +59,6 @@ else if (eo.target.classList=="star fa-solid fa-star icon orange") {
 
 
 
-
 })
 
 
@@ -120,10 +119,16 @@ button.addEventListener("click",
 
 </div> `
 
-container.innerHTML += task
+if(input.value.trim() === ""){
+    alert("write somthing")
+} 
+else {
+    container.innerHTML += task
+}
 
 
-    
+
+
 })
 
 
